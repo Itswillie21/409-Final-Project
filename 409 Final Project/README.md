@@ -1,4 +1,4 @@
-# ICSI 409 - Option 2, Student 1
+# ICSI 409 - Option 2
 
 ## Language & Membership Module
 
