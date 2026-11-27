@@ -47,3 +47,16 @@ String description = Language.getDescription();
 
 The empty string is valid since it has zero zeros followed by zero ones. Strings such as `0101` are invalid because a zero appears after a one.
 
+
+## Pumping Setup Module
+
+Witness: w = 0^p 1^p. It is in L, has length 2p >= p, and its first p symbols are all 0s, so y contains only 0s.
+
+Use `PumpingSetup.chosenString(p)` (p >= 1) and `PumpingSetup.isValidChosenString(w, p)`. Requires Java 11+.
+
+```sh
+javac Language.java PumpingSetup.java PumpingSetupTest.java
+java PumpingSetup
+java PumpingSetupTest
+```
+
